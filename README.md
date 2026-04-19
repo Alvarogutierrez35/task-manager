@@ -1,13 +1,13 @@
 # Task Manager
 
-App de gestión de tareas construida con React y Tailwind CSS.
+Esta es una App que gestiona tareas, la cual está construida en React y utilizando Tailwind para el CSS
 
 ## Funcionalidades
 
 - Agregar, completar y eliminar tareas
 - Filtrar por estado: todas, pendientes y completadas
 - Las tareas se guardan automáticamente en el navegador (localStorage)
-- Diseño responsive y moderno
+- Tiene un diseño responsive y un poco minimalista (Más adelante la dejaré mas bonita)
 
 ## Stack
 
@@ -15,7 +15,7 @@ App de gestión de tareas construida con React y Tailwind CSS.
 - Vite
 - Tailwind CSS
 
-## Cómo correrlo localmente
+## Si quieres descargarla, asi es como debes clonarla :)
 
 ```bash
 git clone https://github.com/Alvarogutierrez35/task-manager.git
@@ -24,17 +24,7 @@ npm install
 npm run dev
 ```
 
-Abre http://localhost:5173 en tu navegador.
+Abre http://localhost:5173 y listo, ya podrás utilizarla.
+Es una App sencilla pero el aburrimiento me llevó a realizarla jaja.
+Saludos
 
-## Estructura del proyecto
-
-```
-src/
-├── App.jsx           # Componente principal y manejo de estado
-└── components/
-    ├── Header.jsx    # Título y contador de tareas
-    ├── TaskInput.jsx # Formulario para agregar tareas
-    ├── FilterBar.jsx # Botones de filtro
-    ├── TaskList.jsx  # Lista de tareas
-    └── TaskItem.jsx  # Tarea individual
-```
